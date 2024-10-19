@@ -267,3 +267,6 @@ img:hover{
     cursor: pointer;
 }
 
+.pantalla{
+    background-image: url(/img/fondo.gif);
+}
