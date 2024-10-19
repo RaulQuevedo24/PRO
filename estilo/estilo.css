@@ -50,6 +50,14 @@ a{
     padding: 0;
 }
 
+html{
+    cursor: url(/img/tierra.png), auto;
+}
+
+a{
+    cursor: url(/img/fuego.png), auto;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -120,6 +128,7 @@ img{
     height: 250px;
     border-radius: 10px;
     border: 1.5px solid rgb(0, 0, 0); 
+    cursor: url(/img/fuego.png), auto;
 }
 
 img:hover{
@@ -140,6 +149,7 @@ img:hover{
     font-family: "DynaPuff", system-ui;
     color: #fff;
     
+    
 }
 
 .caja-tex{
@@ -150,6 +160,8 @@ img:hover{
 
 .titulo:hover{
     text-shadow: rgb(18, 230, 67) 2px 0 5px;
+    cursor: pointer;
+    cursor: url(/img/fuego.png), auto;
 }
 
 .contenedor{
@@ -197,6 +209,7 @@ img:hover{
 
 .cuadro-izq:hover{
     box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    cursor: url(/img/fuego.png), auto;
 }
 
 .gra{
@@ -265,6 +278,7 @@ img:hover{
 .footer:hover{
     box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    cursor: url(/img/fuego.png), auto;
 }
 
 .pantalla{
