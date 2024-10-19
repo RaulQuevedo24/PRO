@@ -1,0 +1,205 @@
+/* Atributos de HTML */
+
+/* Animaciones */
+
+@keyframes arriba{
+    from{
+        transform: translateY(0px);
+
+    }
+
+    to{
+        transform: translateY(5px);
+    }
+}
+
+.titulo{
+    animation: arriba;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+a{
+    animation: arriba2;
+    animation-duration: 90ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes arriba2{
+    from{
+        transform: translateY(-2-px);
+        transform: translate3d(-2-px);
+
+    }
+
+    to{
+        transform: translateY(5px);
+        transform: translate3d(5px);
+    }
+}
+
+
+
+*{
+    align-items: center;
+    margin: auto;
+}
+
+
+nav{
+    height: 70px;
+    width: 1300px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    background-color: #24541679;
+    border-radius: 15px;
+    font-family: "DynaPuff", system-ui;
+    
+}
+
+nav a{
+    color: rgb(119, 41, 41);
+    text-decoration: none;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(0, 0, 0); 
+}
+
+img:hover{
+    box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+/* FIN DE LOS ATRIBUTOS HTML */
+
+
+.titulo{
+    height: 50px;
+    width: 900px;
+    text-align: center;
+    font-size: 30px;
+    border: 2.5px solid green;
+    text-shadow: rgb(24, 1, 1) 4px 0 8px;
+    background-color: #0c2504;
+    background-image: url(/img/top.gif);
+    font-family: "DynaPuff", system-ui;
+    color: #fff;
+    
+}
+
+.titulo:hover{
+    text-shadow: rgb(18, 230, 67) 2px 0 5px;
+}
+
+.contenedor{
+    height: 460px;
+    width: 1300px;
+    display: flex;
+    display: flexbox;
+    background-image: url(/img/paisaje-nivel-juego-bosque-montana-pixeles-8-bits_8071-13072.avif);
+    background-repeat: no-repeat;
+    background-size: 850px 460px;
+}
+
+.separador{
+    width: 1366px;
+    height: 20px;
+    background-color: #2ed64a;
+}
+
+
+
+
+/* Este cuadro es el de la izauierda*/
+
+.cuadro-izq{
+    cursor: pointer;
+    border: 10px solid transparent;
+    text-align: center;
+    background-color: rgba(20, 78, 2, 0.726);
+    height: 450px;
+    width: 1200px;
+ }
+
+.cuadro-izq p{
+    font-size: 20px;
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    text-shadow: black 5px 0 5px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    
+}
+
+.cuadro-izq:hover{
+    box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gra{
+    border-image: linear-gradient(to right, #2ed64a, #245416) 1;
+
+}
+
+
+
+/* Aqui termina el cuadro de la izquierda */
+
+
+/* cuadro de la derecha */
+
+.cuadro-position{
+    background-color: #7c9e721f;
+    height: 470px;
+    display:flexbox;
+    
+}
+
+.derecha-img{
+    width: 450px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    
+}
+
+.cuadro-derecha-tex{
+    height: 150px;
+    width: 300px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #2ed64a, #245416) 1; 
+    position: relative;
+    top: 60px;
+}
+
+.cuadro-derecha-tex:hover{
+    box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.texto{
+    height: 150px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(29, 117, 3, 0.404);
+}
+/* Cuadro de la derecha finalizado */
+
+/* Footer */
+.footer{
+    width: 1366px;
+    height: 200px;
+    background-color: rgb(6, 85, 6);
+}
+
