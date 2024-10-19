@@ -181,6 +181,9 @@ img:hover{
     border-image: linear-gradient(to right, #2ed64a, #245416) 1; 
     position: relative;
     top: 60px;
+    font-family: "Lilita One", sans-serif;
+    color: #fff;
+    text-shadow: rgb(24, 1, 1) 4px 0 8px;
 }
 
 .cuadro-derecha-tex:hover{
@@ -203,3 +206,7 @@ img:hover{
     background-color: rgb(6, 85, 6);
 }
 
+.footer:hover{
+    box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
