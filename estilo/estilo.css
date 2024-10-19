@@ -1,6 +1,78 @@
 /* Atributos de HTML */
 
 /* Animaciones */
+@keyframes moviento{
+    0%{
+        transform: translateX(-20px);
+    }
+    
+   
+    50%{
+        transform: translateX(1140px);
+    } 
+
+   
+    75%{
+        transform: rotateY(320deg);
+    }
+    80%{
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        transform: translateX(-20px);
+    }
+  
+}
+
+@keyframes moviento-2{
+    0%{
+        transform: translateX(0px);
+    }
+    
+   
+    50%{
+        transform: translateX(900px);
+    } 
+
+   
+    75%{
+        transform: rotateY(320deg);
+    }
+    80%{
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        transform: translateX(-20px);
+    }
+  
+}
+ 
+.personaje{
+    animation: moviento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+}
+
+.personaje-1{
+    animation: moviento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+}
+
+.personaje-c{
+    animation: moviento-2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+   
+    
+}
 
 @keyframes arriba{
     from{
@@ -48,6 +120,7 @@ a{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 html{
@@ -67,10 +140,11 @@ body{
 header{
     position: relative;
     left: 300px;
+    z-index: 100;
 }
 
 nav{
-    position: relative;
+    position: fixed;
     width: 783px;
     height: 50px;
     background: #0b420e;
@@ -79,6 +153,10 @@ nav{
     justify-content: center;
     align-items: center;
     font-family: "DynaPuff", system-ui;
+    
+}
+.fija{
+    position: fixed;
     
 }
 
@@ -123,15 +201,48 @@ nav a:nth-child(5):hover~span{
 
 
 
-img{
-    width: 250px;
-    height: 250px;
+.img-1{
+    width: 280px;
+    height: 280px;
     border-radius: 10px;
     border: 1.5px solid rgb(0, 0, 0); 
     cursor: url(https://raulquevedo24.github.io/PRO/img/fuego.png), auto;
 }
 
-img:hover{
+.personaje{
+    width: 240px;
+    height: 220px;
+}
+
+.personaje-1{
+    width: 180px;
+    height: 120px;
+}
+.personaje-c{
+    width: 140px;
+    height: 120px;
+}
+.personaje-contenedor{
+    display: flex;
+    position: relative;
+    bottom: 1px;
+}
+
+.personaje-contenedor-1{
+    display: flex;
+    position: relative;
+    top: 80px;
+}
+
+.personaje-contenedor-3{
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+
+
+
+.img-1:hover{
     box-shadow: -5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 /* FIN DE LOS ATRIBUTOS HTML */
@@ -273,6 +384,7 @@ img:hover{
     width: 1366px;
     height: 200px;
     background-color: rgb(6, 85, 6);
+    
 }
 
 .footer:hover{
