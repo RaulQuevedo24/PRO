@@ -23,7 +23,7 @@
 
 a{
     animation: arriba2;
-    animation-duration: 90ms;
+    animation-duration: 95ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
