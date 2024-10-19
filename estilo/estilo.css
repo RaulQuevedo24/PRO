@@ -181,9 +181,7 @@ img:hover{
     border-image: linear-gradient(to right, #2ed64a, #245416) 1; 
     position: relative;
     top: 60px;
-    font-family: "Lilita One", sans-serif;
-    color: #fff;
-    text-shadow: rgb(24, 1, 1) 4px 0 8px;
+    
 }
 
 .cuadro-derecha-tex:hover{
@@ -196,6 +194,9 @@ img:hover{
     font-size: 25px;
     text-align: center;
     background-color: rgba(29, 117, 3, 0.404);
+    font-family: "Lilita One", sans-serif;
+    color: #fff;
+    text-shadow: rgb(24, 1, 1) 4px 0 8px;
 }
 /* Cuadro de la derecha finalizado */
 
